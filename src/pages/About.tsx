@@ -43,7 +43,7 @@ const About = () => {
       <section className="relative py-16 md:py-24 bg-mtg-navy">
         <div className="absolute inset-0 z-0 opacity-30">
           <img 
-            src="/public/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png" 
+            src="/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png" 
             alt="Tailoring facility" 
             className="w-full h-full object-cover"
           />
