@@ -67,31 +67,31 @@ const Gallery = () => {
     },
     { 
       id: 9, 
-      src: "/public/lovable-uploads/ff9583bf-57a6-42cf-9a53-2ab4dae032c5.png", 
+      src: "/lovable-uploads/ff9583bf-57a6-42cf-9a53-2ab4dae032c5.png", 
       alt: "Traditional dance costumes", 
       category: "cultural" 
     },
     { 
       id: 10, 
-      src: "/public/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png", 
+      src: "/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png", 
       alt: "Corporate uniforms", 
       category: "corporate" 
     },
     { 
       id: 11, 
-      src: "/public/lovable-uploads/1c3a71f5-6092-43b6-a01b-0868b920cd08.png", 
+      src: "/lovable-uploads/1c3a71f5-6092-43b6-a01b-0868b920cd08.png", 
       alt: "Graduation uniforms", 
       category: "college" 
     },
     { 
       id: 12, 
-      src: "/public/lovable-uploads/ab356b2b-43d0-4f67-b9c4-5fc1b388e7c2.png", 
+      src: "/lovable-uploads/ab356b2b-43d0-4f67-b9c4-5fc1b388e7c2.png", 
       alt: "School children in uniform", 
       category: "school" 
     },
     { 
       id: 13, 
-      src: "/public/lovable-uploads/c3d830f7-e06a-42da-bfaa-ff149a86842d.png", 
+      src: "/lovable-uploads/c3d830f7-e06a-42da-bfaa-ff149a86842d.png", 
       alt: "Dance performance in traditional dress", 
       category: "cultural" 
     },

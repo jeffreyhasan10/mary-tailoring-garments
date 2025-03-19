@@ -83,28 +83,28 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-lg overflow-hidden shadow-md h-64">
                 <img 
-                  src="/public/lovable-uploads/1c3a71f5-6092-43b6-a01b-0868b920cd08.png" 
+                  src="/lovable-uploads/1c3a71f5-6092-43b6-a01b-0868b920cd08.png" 
                   alt="Company history" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-md h-64">
                 <img 
-                  src="/public/lovable-uploads/c3d830f7-e06a-42da-bfaa-ff149a86842d.png" 
+                  src="/lovable-uploads/c3d830f7-e06a-42da-bfaa-ff149a86842d.png" 
                   alt="Uniform manufacturing" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-md h-64">
                 <img 
-                  src="/public/lovable-uploads/ff9583bf-57a6-42cf-9a53-2ab4dae032c5.png" 
+                  src="/lovable-uploads/ff9583bf-57a6-42cf-9a53-2ab4dae032c5.png" 
                   alt="Cultural dresses" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-md h-64">
                 <img 
-                  src="/public/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png" 
+                  src="/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png" 
                   alt="Graduation uniforms" 
                   className="w-full h-full object-cover"
                 />
@@ -192,7 +192,7 @@ const About = () => {
                 </div>
                 <div className="md:w-1/2 md:pl-16">
                   <img 
-                    src="/public/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
+                    src="/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
                     alt="Consultation process" 
                     className="rounded-lg shadow-md w-full"
                   />
@@ -202,7 +202,7 @@ const About = () => {
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-16 mb-6 md:mb-0 text-right order-1 md:order-2">
                   <img 
-                    src="/public/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png" 
+                    src="/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png" 
                     alt="Material selection" 
                     className="rounded-lg shadow-md w-full"
                   />
@@ -232,7 +232,7 @@ const About = () => {
                 </div>
                 <div className="md:w-1/2 md:pl-16">
                   <img 
-                    src="/public/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png" 
+                    src="/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png" 
                     alt="Stitching process" 
                     className="rounded-lg shadow-md w-full"
                   />
@@ -242,7 +242,7 @@ const About = () => {
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-16 mb-6 md:mb-0 text-right order-1 md:order-2">
                   <img 
-                    src="/public/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png" 
+                    src="/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png" 
                     alt="Quality control" 
                     className="rounded-lg shadow-md w-full"
                   />
@@ -278,7 +278,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
+                  src="/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
                   alt="Team member" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -295,7 +295,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png" 
+                  src="/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png" 
                   alt="Manufacturing team" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -312,7 +312,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png" 
+                  src="/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png" 
                   alt="Quality control team" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -329,7 +329,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
+                  src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
                   alt="Customer service team" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
