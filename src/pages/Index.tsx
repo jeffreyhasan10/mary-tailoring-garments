@@ -17,21 +17,32 @@ import {
 } from "lucide-react";
 import { Section, SectionTitle } from "../components/ui/section";
 import { Container } from "../components/ui/container";
-
-// Navbar component (not fixed)
 const Navbar = () => (
   <nav className="bg-white shadow-sm">
-    <Container className="flex items-center justify-between py-4">
-      <div className="text-xl font-bold text-mtg-navy">
+    <Container className="flex flex-col sm:flex-row items-center justify-between py-4 px-4">
+      <div className="text-xl font-bold text-mtg-navy mb-4 sm:mb-0">
         Mary Tailoring & Garments
       </div>
-      <div className="flex items-center gap-6">
-        <Link to="/" className="text-mtg-navy hover:text-mtg-gold">Home</Link>
-        <Link to="/about" className="text-mtg-navy hover:text-mtg-gold">About</Link>
-        <Link to="/products" className="text-mtg-navy hover:text-mtg-gold">Products</Link>
-        <Link to="/gallery" className="text-mtg-navy hover:text-mtg-gold">Gallery</Link>
-        <Link to="/contact" className="text-mtg-navy hover:text-mtg-gold">Contact</Link>
-        <a href="tel:+919600427367" className="text-mtg-navy hover:text-mtg-gold">
+      <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-center">
+        <Link to="/" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
+          Home
+        </Link>
+        <Link to="/about" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
+          About
+        </Link>
+        <Link to="/products" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
+          Products
+        </Link>
+        <Link to="/gallery" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
+          Gallery
+        </Link>
+        <Link to="/contact" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
+          Contact
+        </Link>
+        <a
+          href="tel:+919600427367"
+          className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base"
+        >
           +91 9600427367
         </a>
       </div>
