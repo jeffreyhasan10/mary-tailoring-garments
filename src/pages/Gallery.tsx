@@ -19,49 +19,49 @@ const Gallery = () => {
   const images: GalleryImage[] = [
     { 
       id: 1, 
-      src: "/public/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png", 
+      src: "/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png", 
       alt: "School uniforms group photo", 
       category: "school" 
     },
     { 
       id: 2, 
-      src: "/public/lovable-uploads/7be8b1a8-623d-443f-aaf5-07aaba49352d.png", 
+      src: "/lovable-uploads/7be8b1a8-623d-443f-aaf5-07aaba49352d.png", 
       alt: "Students in uniform", 
       category: "school" 
     },
     { 
       id: 3, 
-      src: "/public/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png", 
+      src: "/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png", 
       alt: "Female student in uniform", 
       category: "school" 
     },
     { 
       id: 4, 
-      src: "/public/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png", 
+      src: "/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png", 
       alt: "College students in uniform", 
       category: "college" 
     },
     { 
       id: 5, 
-      src: "/public/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png", 
+      src: "/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png", 
       alt: "Manufacturing facility", 
       category: "facility" 
     },
     { 
       id: 6, 
-      src: "/public/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png", 
+      src: "/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png", 
       alt: "Tailoring facility", 
       category: "facility" 
     },
     { 
       id: 7, 
-      src: "/public/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png", 
+      src: "/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png", 
       alt: "Sewing machine close-up", 
       category: "facility" 
     },
     { 
       id: 8, 
-      src: "/public/lovable-uploads/a3d6339a-40a6-46ee-9f6a-f147564d02b3.png", 
+      src: "/lovable-uploads/a3d6339a-40a6-46ee-9f6a-f147564d02b3.png", 
       alt: "Cultural program dress", 
       category: "cultural" 
     },
