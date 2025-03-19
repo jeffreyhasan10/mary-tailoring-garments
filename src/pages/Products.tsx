@@ -80,7 +80,7 @@ const Products = () => {
       <section className="relative py-16 md:py-24 bg-mtg-navy">
         <div className="absolute inset-0 z-0 opacity-20">
           <img 
-            src="/public/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png" 
+            src="/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png" 
             alt="Uniforms background" 
             className="w-full h-full object-cover"
           />
@@ -203,21 +203,21 @@ const Products = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-lg overflow-hidden h-72 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png" 
+                  src="/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png" 
                   alt="Primary school uniforms" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden h-72 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/7be8b1a8-623d-443f-aaf5-07aaba49352d.png" 
+                  src="/lovable-uploads/7be8b1a8-623d-443f-aaf5-07aaba49352d.png" 
                   alt="Middle school uniforms" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden h-48 col-span-2 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png" 
+                  src="/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png" 
                   alt="High school uniforms" 
                   className="w-full h-full object-cover"
                 />
@@ -235,21 +235,21 @@ const Products = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-lg overflow-hidden h-72 shadow-md">
                   <img 
-                    src="/public/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png" 
+                    src="/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png" 
                     alt="College uniforms" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden h-72 shadow-md">
                   <img 
-                    src="/public/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png" 
+                    src="/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png" 
                     alt="Department specific uniforms" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden h-48 col-span-2 shadow-md">
                   <img 
-                    src="/public/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png" 
+                    src="/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png" 
                     alt="Graduation gowns" 
                     className="w-full h-full object-cover"
                   />
@@ -371,21 +371,21 @@ const Products = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-lg overflow-hidden h-72 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png" 
+                  src="/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png" 
                   alt="Corporate office wear" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden h-72 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
+                  src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
                   alt="Corporate staff uniforms" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden h-48 col-span-2 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
+                  src="/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
                   alt="Professional attire" 
                   className="w-full h-full object-cover"
                 />
@@ -403,14 +403,14 @@ const Products = () => {
               <div className="grid grid-cols-1 gap-4">
                 <div className="rounded-lg overflow-hidden h-80 shadow-md">
                   <img 
-                    src="/public/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png" 
+                    src="/lovable-uploads/2eca9fe1-784c-4d54-bbe2-65243900fd8c.png" 
                     alt="Medical uniforms" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden h-48 shadow-md">
                   <img 
-                    src="/public/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
+                    src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
                     alt="Hospital staff uniforms" 
                     className="w-full h-full object-cover"
                   />
@@ -532,21 +532,21 @@ const Products = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-lg overflow-hidden h-72 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/a3d6339a-40a6-46ee-9f6a-f147564d02b3.png" 
+                  src="/lovable-uploads/a3d6339a-40a6-46ee-9f6a-f147564d02b3.png" 
                   alt="Cultural performance dresses" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden h-72 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/ff9583bf-57a6-42cf-9a53-2ab4dae032c5.png" 
+                  src="/lovable-uploads/ff9583bf-57a6-42cf-9a53-2ab4dae032c5.png" 
                   alt="Traditional dance costumes" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden h-48 col-span-2 shadow-md">
                 <img 
-                  src="/public/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
+                  src="/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
                   alt="Folk dance outfits" 
                   className="w-full h-full object-cover"
                 />
@@ -564,14 +564,14 @@ const Products = () => {
               <div className="grid grid-cols-1 gap-4">
                 <div className="rounded-lg overflow-hidden h-80 shadow-md">
                   <img 
-                    src="/public/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
+                    src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
                     alt="Specialty uniforms" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden h-48 shadow-md">
                   <img 
-                    src="/public/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png" 
+                    src="/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png" 
                     alt="Specialized work attire" 
                     className="w-full h-full object-cover"
                   />

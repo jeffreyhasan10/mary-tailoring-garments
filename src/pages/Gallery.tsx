@@ -97,19 +97,19 @@ const Gallery = () => {
     },
     { 
       id: 14, 
-      src: "/public/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png", 
+      src: "/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png", 
       alt: "Pink traditional dresses", 
       category: "cultural" 
     },
     { 
       id: 15, 
-      src: "/public/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png", 
+      src: "/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png", 
       alt: "Office uniforms", 
       category: "corporate" 
     },
     { 
       id: 16, 
-      src: "/public/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png", 
+      src: "/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png", 
       alt: "Graduation ceremony", 
       category: "college" 
     },
@@ -181,7 +181,7 @@ const Gallery = () => {
       <section className="relative py-16 md:py-24 bg-mtg-navy">
         <div className="absolute inset-0 z-0 opacity-20">
           <img 
-            src="/public/lovable-uploads/a3d6339a-40a6-46ee-9f6a-f147564d02b3.png" 
+            src="/lovable-uploads/a3d6339a-40a6-46ee-9f6a-f147564d02b3.png" 
             alt="Gallery background" 
             className="w-full h-full object-cover"
           />

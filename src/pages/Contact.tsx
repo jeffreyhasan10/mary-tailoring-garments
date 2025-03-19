@@ -104,7 +104,7 @@ const Contact = () => {
       <section className="relative py-16 md:py-24 bg-mtg-navy">
         <div className="absolute inset-0 z-0 opacity-20">
           <img 
-            src="/public/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
+            src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
             alt="Contact us background" 
             className="w-full h-full object-cover"
           />

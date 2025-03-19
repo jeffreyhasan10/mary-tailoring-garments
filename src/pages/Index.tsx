@@ -86,7 +86,7 @@ const Index = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-mtg-navy/70 to-mtg-navy/30"></div>
           <img
-            src="/public/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png"
+            src="/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png"
             alt="School uniform group"
             className="w-full h-full object-cover bg-image-fade"
           />
@@ -183,7 +183,7 @@ const Index = () => {
             <div className="group hover-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md border border-gray-100">
               <div className="relative h-48 sm:h-64 overflow-hidden">
                 <img
-                  src="/public/lovable-uploads/7be8b1a8-623d-443f-aaf5-07aaba49352d.png"
+                  src="/lovable-uploads/7be8b1a8-623d-443f-aaf5-07aaba49352d.png"
                   alt="School Uniforms"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -218,7 +218,7 @@ const Index = () => {
             <div className="group hover-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md border border-gray-100">
               <div className="relative h-48 sm:h-64 overflow-hidden">
                 <img
-                  src="/public/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png"
+                  src="/lovable-uploads/55ddebd3-2f4a-4e2d-962d-983e8d2cfa6f.png"
                   alt="College Uniforms"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -253,7 +253,7 @@ const Index = () => {
             <div className="group hover-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md border border-gray-100">
               <div className="relative h-48 sm:h-64 overflow-hidden">
                 <img
-                  src="/public/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png"
+                  src="/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png"
                   alt="Corporate Uniforms"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -303,13 +303,13 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="relative">
               <img
-                src="/public/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png"
+                src="/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png"
                 alt="Manufacturing facility"
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
               <div className="absolute -bottom-6 -right-6 hidden md:block">
                 <img
-                  src="/public/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png"
+                  src="/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png"
                   alt="Sewing machine"
                   className="w-40 h-40 object-cover rounded-lg shadow-lg border-4 border-white"
                 />
@@ -516,7 +516,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-lg shadow-md">
                   <img
-                    src="/public/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png"
+                    src="/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png"
                     alt="Tailoring facility"
                     className="w-full h-72 object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -540,7 +540,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-lg shadow-md">
                   <img
-                    src="/public/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png"
+                    src="/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png"
                     alt="Sewing machine close-up"
                     className="w-full h-72 object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -566,7 +566,7 @@ const Index = () => {
               <div className="overflow-hidden rounded-lg shadow-md bg-white">
                 <div className="h-60">
                   <img
-                    src="/public/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png"
+                    src="/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png"
                     alt="Manufacturing facility overview"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -585,7 +585,7 @@ const Index = () => {
               <div className="overflow-hidden rounded-lg shadow-md bg-white">
                 <div className="h-60">
                   <img
-                    src="/public/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png"
+                    src="/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png"
                     alt="Finished school uniforms"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -604,7 +604,7 @@ const Index = () => {
               <div className="overflow-hidden rounded-lg shadow-md bg-white">
                 <div className="h-60">
                   <img
-                    src="/public/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png"
+                    src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png"
                     alt="Design and pattern making area"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -637,7 +637,7 @@ const Index = () => {
       <section className="py-12 sm:py-16 bg-mtg-navy relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="/public/lovable-uploads/ab356b2b-43d0-4f67-b9c4-5fc1b388e7c2.png"
+            src="/lovable-uploads/ab356b2b-43d0-4f67-b9c4-5fc1b388e7c2.png"
             alt="Background pattern"
             className="w-full h-full object-cover"
           />
