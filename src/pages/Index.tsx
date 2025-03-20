@@ -361,7 +361,7 @@ const Index = () => {
             <div className="group hover-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md border border-gray-100">
               <div className="relative h-48 sm:h-64 overflow-hidden">
                 <img
-                  src="/lovable-uploads/7be8b1a8-623d-443f-aaf5-07aaba49352d.png"
+                  src="/lovable-uploads/schooluniform.png"
                   alt="School Uniforms"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -431,7 +431,7 @@ const Index = () => {
             <div className="group hover-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md border border-gray-100">
               <div className="relative h-48 sm:h-64 overflow-hidden">
                 <img
-                  src="/lovable-uploads/fb10461d-76f8-4815-9fb2-5d31dcfe783b.png"
+                  src="/lovable-uploads/Company-Uniforms.jpg"
                   alt="Corporate Uniforms"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -718,7 +718,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-lg shadow-md">
                   <img
-                    src="/lovable-uploads/e5fb24a4-db47-4f28-8782-506d72962572.png"
+                    src="/lovable-uploads/items.jpg"
                     alt="Sewing machine close-up"
                     className="w-full h-72 object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -763,7 +763,7 @@ const Index = () => {
               <div className="overflow-hidden rounded-lg shadow-md bg-white">
                 <div className="h-60">
                   <img
-                    src="/lovable-uploads/47894f98-be50-4061-8bf0-d134b5fa8398.png"
+                    src="/lovable-uploads/control.jpg"
                     alt="Finished school uniforms"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -782,7 +782,7 @@ const Index = () => {
               <div className="overflow-hidden rounded-lg shadow-md bg-white">
                 <div className="h-60">
                   <img
-                    src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png"
+                    src="/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png"
                     alt="Design and pattern making area"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />

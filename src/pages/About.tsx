@@ -278,7 +278,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/ad55a07b-7fc9-4047-b5cd-a7c00e9e35b1.png" 
+                  src="/lovable-uploads/Sunitha.JPG" 
                   alt="Team member" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -295,7 +295,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png" 
+                  src="/lovable-uploads/Team.jpg" 
                   alt="Manufacturing team" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -312,7 +312,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/8b8847f4-f186-4361-89cc-10b254a6d180.png" 
+                  src="/lovable-uploads/qualitycontrol.jpg" 
                   alt="Quality control team" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -329,7 +329,7 @@ const About = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all group">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/lovable-uploads/cd7d92ca-6c37-45ea-99d0-187c9fb6415e.png" 
+                  src="/lovable-uploads/1abd22e5-bb0d-4a35-ac9a-d5e7295d056e.png" 
                   alt="Customer service team" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
