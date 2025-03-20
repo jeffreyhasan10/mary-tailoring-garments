@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   ChevronRight,
@@ -14,42 +14,204 @@ import {
   Phone,
   Factory,
   Ruler,
+  Menu,
+  X,
+  Mail,
+  Facebook,
+  Instagram,
 } from "lucide-react";
 import { Section, SectionTitle } from "../components/ui/section";
 import { Container } from "../components/ui/container";
-const Navbar = () => (
-  <nav className="bg-white shadow-sm">
-    <Container className="flex flex-col sm:flex-row items-center justify-between py-4 px-4">
-      <div className="text-xl font-bold text-mtg-navy mb-4 sm:mb-0">
-        Mary Tailoring & Garments
-      </div>
-      <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-center">
-        <Link to="/" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
-          Home
-        </Link>
-        <Link to="/about" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
-          About
-        </Link>
-        <Link to="/products" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
-          Products
-        </Link>
-        <Link to="/gallery" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
-          Gallery
-        </Link>
-        <Link to="/contact" className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base">
-          Contact
-        </Link>
-        <a
-          href="tel:+919600427367"
-          className="text-mtg-navy hover:text-mtg-gold text-sm sm:text-base"
-        >
-          +91 9600427367
-        </a>
-      </div>
-    </Container>
-  </nav>
-);
 
+// Header Component (unchanged)
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-white"
+      }`}
+    >
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          <Link to="/" className="flex items-center">
+            <h1
+              className={`text-xl font-display font-semibold transition-colors duration-300 ${
+                isScrolled ? "text-mtg-navy" : "text-mtg-navy"
+              }`}
+            >
+              <span className="text-2xl">M</span>ary{" "}
+              <span className="text-2xl">T</span>ailoring &{" "}
+              <span className="text-2xl">G</span>arments
+            </h1>
+          </Link>
+          <nav className="hidden md:flex space-x-8">
+            <Link
+              to="/"
+              className={`nav-link font-medium ${
+                isScrolled ? "text-mtg-navy" : "text-mtg-navy"
+              }`}
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              className={`nav-link font-medium ${
+                isScrolled ? "text-mtg-navy" : "text-mtg-navy"
+              }`}
+            >
+              About
+            </Link>
+            <Link
+              to="/products"
+              className={`nav-link font-medium ${
+                isScrolled ? "text-mtg-navy" : "text-mtg-navy"
+              }`}
+            >
+              Products
+            </Link>
+            <Link
+              to="/gallery"
+              className={`nav-link font-medium ${
+                isScrolled ? "text-mtg-navy" : "text-mtg-navy"
+              }`}
+            >
+              Gallery
+            </Link>
+            <Link
+              to="/contact"
+              className={`nav-link font-medium ${
+                isScrolled ? "text-mtg-navy" : "text-mtg-navy"
+              }`}
+            >
+              Contact
+            </Link>
+          </nav>
+          <div className="hidden lg:flex items-center space-x-4">
+            <a
+              href="tel:+919600427367"
+              className="flex items-center text-sm text-mtg-navy"
+            >
+              <Phone size={16} className="mr-1" />
+              <span>+91 9600427367</span>
+            </a>
+          </div>
+          <button
+            onClick={toggleMenu}
+            className="md:hidden p-2 rounded-md text-mtg-navy focus:outline-none"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+      </div>
+      <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"}`}>
+        <div className="bg-white shadow-xl animate-slide-in-right">
+          <div className="px-4 pt-4 pb-8 space-y-6">
+            <Link
+              to="/"
+              onClick={toggleMenu}
+              className="block py-2 text-mtg-navy hover:text-mtg-gold font-medium"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              onClick={toggleMenu}
+              className="block py-2 text-mtg-navy hover:text-mtg-gold font-medium"
+            >
+              About
+            </Link>
+            <Link
+              to="/products"
+              onClick={toggleMenu}
+              className="block py-2 text-mtg-navy hover:text-mtg-gold font-medium"
+            >
+              Products
+            </Link>
+            <Link
+              to="/gallery"
+              onClick={toggleMenu}
+              className="block py-2 text-mtg-navy hover:text-mtg-gold font-medium"
+            >
+              Gallery
+            </Link>
+            <Link
+              to="/contact"
+              onClick={toggleMenu}
+              className="block py-2 text-mtg-navy hover:text-mtg-gold font-medium"
+            >
+              Contact
+            </Link>
+            <div className="pt-4 space-y-4 border-t border-gray-200">
+              <a
+                href="tel:+919600427367"
+                className="flex items-center text-mtg-navy"
+              >
+                <Phone size={16} className="mr-2" />
+                <span>+91 9600427367</span>
+              </a>
+              <a
+                href="tel:+919790048353"
+                className="flex items-center text-mtg-navy"
+              >
+                <Phone size={16} className="mr-2" />
+                <span>+91 9790048353</span>
+              </a>
+              <a
+                href="mailto:mtguniform@gmail.com"
+                className="flex items-center text-mtg-navy"
+              >
+                <Mail size={16} className="mr-2" />
+                <span>mtguniform@gmail.com</span>
+              </a>
+              <div className="flex space-x-4 pt-2">
+                <a
+                  href="https://www.facebook.com/MaryTailoringGarments/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-mtg-navy hover:text-mtg-gold"
+                >
+                  <Facebook size={20} />
+                </a>
+                <a
+                  href="https://www.instagram.com/mtg_garments?igsh=djJmbHpxOHg0dzBi"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-mtg-navy hover:text-mtg-gold"
+                >
+                  <Instagram size={20} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+// Index Component with Updated Hero Section
 const Index = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const productsRef = useRef<HTMLDivElement>(null);
@@ -86,36 +248,40 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Navbar */}
-      <Navbar />
+      {/* Header Component */}
+      <Header />
 
-      {/* Hero Section */}
+      {/* Hero Section with Blended Image and Color */}
       <section
-        className="hero-section relative min-h-[70vh] sm:min-h-[80vh] lg:min-h-screen pt-12 sm:pt-16" // Adjusted padding for non-fixed navbar
+        className="hero-section relative min-h-[70vh] sm:min-h-[80vh] lg:min-h-screen pt-24 sm:pt-28"
         ref={heroRef}
       >
+        {/* Background with Image and Color Overlay */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-mtg-navy/70 to-mtg-navy/30"></div>
+          {/* Color Overlay with Gradient */}
+          <div className="absolute inset-0 bg-gradient-to-b from-mtg-navy/80 to-mtg-navy/60"></div>
+          {/* Background Image with Reduced Opacity */}
           <img
             src="/lovable-uploads/2032bf85-bbc1-47da-9bb3-d5e7e23419c2.png"
             alt="School uniform group"
-            className="w-full h-full object-cover bg-image-fade"
+            className="w-full h-full object-cover opacity-30" // Reduced opacity to make the image lightly visible
           />
         </div>
+
         <div className="relative container mx-auto px-4 h-full z-10 flex items-center justify-center">
           <div className="flex flex-col items-center justify-center w-full max-w-4xl text-center space-y-6">
             <div
               className="opacity-0"
               style={{ animation: "fade-in 1s ease-out forwards 0.3s" }}
             >
-              <span className="badge-gold mb-4 inline-block px-3 py-1 rounded-full text-xs sm:text-sm bg-mtg-gold/20 text-mtg-gold">
+              <span className="badge-gold mb-4 inline-block px-4 py-2 rounded-full text-sm sm:text-base bg-mtg-gold/30 text-mtg-gold shadow-md">
                 Premium Uniform Tailoring
               </span>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-6 leading-tight tracking-tight">
                 Crafting <span className="text-mtg-gold">Quality</span> Uniforms
                 with Precision
               </h1>
-              <p className="text-sm sm:text-base md:text-lg text-gray-100 mb-8 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg md:text-xl text-gray-100 mb-8 max-w-2xl mx-auto font-light">
                 Specialized in manufacturing premium school, college, and
                 professional uniforms that embody elegance, comfort, and
                 durability.
@@ -123,20 +289,20 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   to="/products"
-                  className="bg-mtg-gold text-mtg-navy font-semibold px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-mtg-gold/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center text-sm sm:text-base"
+                  className="bg-mtg-gold text-mtg-navy font-semibold px-6 py-3 rounded-md hover:bg-mtg-gold/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center text-base sm:text-lg"
                 >
                   Explore Products
                 </Link>
                 <Link
                   to="/contact"
-                  className="bg-transparent text-white border border-white px-4 py-2 sm:px-6 sm:py-3 rounded-md hover:bg-white/10 transition-all text-center text-sm sm:text-base"
+                  className="bg-transparent text-white border-2 border-white px-6 py-3 rounded-md hover:bg-white/10 transition-all text-center text-base sm:text-lg"
                 >
                   Contact Us
                 </Link>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 p-3 sm:p-4 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 bg-white/20 backdrop-blur-lg rounded-xl border border-white/30 p-4 sm:p-6 w-full shadow-lg">
               {[
                 {
                   title: "Premium Quality",
@@ -153,16 +319,16 @@ const Index = () => {
               ].map((item, idx) => (
                 <div
                   key={idx}
-                  className="flex items-center p-2 sm:p-3 w-full min-w-0"
+                  className="flex items-center p-3 sm:p-4 w-full min-w-0 hover:bg-white/10 transition-all rounded-lg"
                 >
-                  <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-mtg-gold/20 mr-3 sm:mr-4 flex-shrink-0">
-                    <Check className="text-mtg-gold" size={20} />
+                  <div className="flex items-center justify-center w-12 h-12 rounded-full bg-mtg-gold/30 mr-4 flex-shrink-0">
+                    <Check className="text-mtg-gold" size={24} />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-white font-semibold text-sm sm:text-base truncate">
+                    <h3 className="text-white font-semibold text-base sm:text-lg truncate">
                       {item.title}
                     </h3>
-                    <p className="text-gray-200 text-xs sm:text-sm truncate">
+                    <p className="text-gray-200 text-sm sm:text-base truncate">
                       {item.desc}
                     </p>
                   </div>
@@ -173,6 +339,7 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Rest of the sections remain unchanged */}
       {/* Products Section */}
       <section className="section-padding bg-gray-50 py-12 sm:py-16" ref={productsRef}>
         <div className="container mx-auto px-4">
